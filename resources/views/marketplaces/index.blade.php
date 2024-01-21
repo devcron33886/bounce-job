@@ -16,8 +16,15 @@
 </head>
 
 <body class="antialiased">
+    <div class="bg-white">
 
-    <x-footer-component />
+        <x-market-place-component />
+
+        <x-footer-component />
+    </div>
+    </div>
+
+
 </body>
 
 </html>
