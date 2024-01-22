@@ -13,7 +13,7 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Mulish', ...defaultTheme.fontFamily.sans],
+                sans: ['Be Vietnam Pro', ...defaultTheme.fontFamily.sans],
             },
         },
     },
