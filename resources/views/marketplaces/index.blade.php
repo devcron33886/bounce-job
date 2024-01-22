@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Bounce Services</title>
+    <title>Marketplaces - Bounce Services</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -16,7 +16,7 @@
 
 <body class="antialiased">
     <div class="bg-white">
-
+        <livewire:layout.front />
         <x-market-place-component />
 
         <x-footer-component />

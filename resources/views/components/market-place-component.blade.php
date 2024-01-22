@@ -4,31 +4,11 @@
         <p class="mt-4 text-base text-gray-500">Checkout out the latest services that are available!</p>
     </div>
 
-    <div class="pb-24 pt-12 lg:grid lg:grid-cols-3 lg:gap-x-8 xl:grid-cols-4">
-        <aside>
-            <h2 class="sr-only">Categories</h2>
-            <form class="border-b border-gray-200 bg-white pb-10" action="#">
-                <div class="pt-10">
-                    <fieldset>
-
-                        <div class="space-y-3 pt-6">
-                            @foreach ($categories as $category)
-                                <div class="flex items-center">
-                                    <input id="category-1" name="category[]" value="tees" type="checkbox"
-                                        class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                                    <label for="category-1"
-                                        class="ml-3 text-sm text-gray-600">{{ $category->name }}</label>
-                                </div>
-                            @endforeach
-                        </div>
-                    </fieldset>
-                </div>
-            </form>
-        </aside>
+    <div class="pb-24 pt-12 lg:grid lg:grid-cols-2 lg:gap-x-8 xl:grid-cols-2">
         <section aria-labelledby="product-heading" class="mt-6 lg:col-span-2 lg:mt-0 xl:col-span-3">
             <h2 id="product-heading" class="sr-only">Services</h2>
 
-            <div class="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:gap-x-8 xl:grid-cols-2">
+            <div class="grid grid-cols-1 gap-y-4 sm:grid-cols-3 sm:gap-x-6 sm:gap-y-10 lg:gap-x-8 xl:grid-cols-3">
                 <div class="group relative flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white">
                     <div class="aspect-h-4 aspect-w-3 bg-gray-200 sm:aspect-none group-hover:opacity-75 sm:h-96">
                         <img src="https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-01.jpg"
